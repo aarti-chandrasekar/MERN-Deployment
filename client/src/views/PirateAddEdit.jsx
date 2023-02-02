@@ -102,7 +102,7 @@ const PirateAddEdit = () => {
     }
 
     return (
-        <div className='row d-flex justify-content-center'>
+        <div className='row d-flex justify-content-center text-white'>
             <div className="d-flex bg-dark m-2 p-2 w-75 justify-content-between align-items-center" >
                 {id === undefined ?
                     <h1>Add Pirate </h1> : <h1>Edit Pirate</h1>

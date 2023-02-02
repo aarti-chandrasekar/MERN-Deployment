@@ -38,10 +38,10 @@ const Main = () => {
     
 
     return (
-        <div className='row d-flex justify-content-center'>
+        <div className='row d-flex justify-content-center text-white'>
             <div className="d-flex bg-dark m-2 p-2 w-75 justify-content-between align-items-center" >
                 <h1>Pirate Crew</h1>
-                <Link to={`/pirates/new`} className="btn btn-warning">Add Pirate</Link>
+                <Link to={`/pirates/new`} className="btn btn-warning ">Add Pirate</Link>
             </div>
                 {serverError ? <p className="text-danger text-center">{serverError}</p> : ""}
             <div className="d-flex bg-dark m-2 p-2 w-75 justify-content-between align-items-center" >

@@ -45,7 +45,7 @@ const PirateView = () => {
 
 
     return (
-        <div className='row d-flex justify-content-center'>
+        <div className='row d-flex justify-content-center text-white'>
             <div className="d-flex bg-dark  p-2 w-75 justify-content-between align-items-center" >
                 <h1>{name}</h1>
                 <Link to={`/`} className="btn btn-warning">Home</Link>
